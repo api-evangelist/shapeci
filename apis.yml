@@ -1,7 +1,17 @@
 aid: shapeci
 name: ShapeCI
-description: ShapeCI is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  ShapeCI is software for industrials — a next-generation PDM (product data
+  management) platform enabled by modern version control that helps hardware
+  enterprises go from design to start of production in weeks rather than years.
+  It brings a Git-style workflow to hardware and CAD: teams and projects hold
+  design files under version control with merge requests, documents, and the
+  ability to review 3D models in-browser and auto-sync engineering knowledge
+  with the model-base. A desktop Connector application lets engineers clone a
+  project, create workstreams, and publish or sync changes. ShapeCI is currently
+  an invite-only beta and does not publish a public developer API; it was
+  surfaced as a portfolio company of Bloomberg Beta and added to the API
+  Evangelist network for enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/shapeci/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,32 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://2622654955-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FV42ohag742i7wOoIhQiR%2Ficon%2FaEQMglXrrIupusJJfOrC%2Ficon.png?alt=media&token=1d55228b-93f6-4208-ba24-28367ba2f77e
 tags:
 - Company
+- Hardware
+- Version Control
+- PDM
+- Product Data Management
+- CAD
+- Manufacturing
+- Engineering
+- Collaboration
+- Industrial
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,28 @@ maintainers:
 common:
 - type: Website
   url: https://shape.ci/
+- type: Documentation
+  url: https://docs.shape.ci/
+- type: GitHubOrganization
+  url: https://github.com/shapeci
+- type: Login
+  url: https://app.shape.ci
+- type: SignUp
+  url: https://forms.reform.app/onKMxr/shapeci-early-access/
+- type: Support
+  url: https://docs.shape.ci/questions
+- type: TermsOfService
+  url: https://www.shape.ci/terms
+- type: PrivacyPolicy
+  url: https://www.shape.ci/privacy
+- type: LLMsTxt
+  url: llms/shapeci-llms.txt
+- type: Packages
+  url: packages/shapeci-packages.yml
+- type: DomainSecurity
+  url: security/shapeci-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

@@ -1,0 +1,23 @@
+# ShapeCI
+
+## ShapeCI
+
+- [ShapeCI Documentation](https://docs.shape.ci/shapeci-documentation.md)
+- [Signing Up](https://docs.shape.ci/signing-up.md)
+- [Teams](https://docs.shape.ci/teams.md)
+- [Creating a Team](https://docs.shape.ci/teams/creating-a-team.md)
+- [Inviting Team Members](https://docs.shape.ci/teams/inviting-team-members.md)
+- [Projects](https://docs.shape.ci/projects.md)
+- [Creating a Project](https://docs.shape.ci/projects/creating-a-project.md)
+- [Files](https://docs.shape.ci/projects/files.md)
+- [Merge Requests](https://docs.shape.ci/projects/merge-requests.md)
+- [Settings](https://docs.shape.ci/projects/settings.md)
+- [Documents](https://docs.shape.ci/documents.md)
+- [Connector Application](https://docs.shape.ci/connector-application.md)
+- [Cloning a Project](https://docs.shape.ci/connector-application/cloning-a-project.md)
+- [Creating Workstreams](https://docs.shape.ci/connector-application/creating-workstreams.md)
+- [Publishing Changes](https://docs.shape.ci/connector-application/publishing-changes.md)
+- [Syncing Workstreams](https://docs.shape.ci/connector-application/syncing-workstreams.md)
+- [Reverting to Previous Change](https://docs.shape.ci/connector-application/reverting-to-previous-change.md)
+- [End-to-End Demo Workflow](https://docs.shape.ci/end-to-end-demo-workflow.md)
+- [Questions?](https://docs.shape.ci/questions.md)

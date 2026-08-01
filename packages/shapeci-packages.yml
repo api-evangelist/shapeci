@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.shape.ci/connector-application
+notes: >-
+  ShapeCI does not publish client SDKs on any public package registry (npm, PyPI,
+  Maven Central, NuGet, pkg.go.dev, RubyGems, Packagist, crates.io) — it is an
+  invite-only PDM / version-control product with no documented public API. The
+  only first-party distributable is the desktop Connector application referenced
+  in the docs. At probe time (2026-07-21) the installer URL and its S3 release
+  bucket (shapeci-desktop-releases.s3.us-east-2.amazonaws.com) returned
+  404 / NoSuchBucket, so no live download URL is recorded.
+packages:
+  - name: ShapeCI Connector
+    kind: desktop-application
+    platform: windows
+    description: >-
+      Desktop application that facilitates version control — clone a project,
+      create workstreams, and publish/sync changes to the ShapeCI model-base.
+    docs: https://docs.shape.ci/connector-application
+    official: true
+    registry: none
+    download_status: 404-at-probe
